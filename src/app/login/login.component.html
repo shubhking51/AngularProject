@@ -1,0 +1,9 @@
+<!--function is being called-->
+<form (ngSubmit)="perform_login()">
+    <input type = "text" placeholder="username" name = "username" [(ngModel)]="username">
+    <input type = "password" placeholder="password" name = "password" [(ngModel)]="password">
+    <input type = "submit" value ="login">
+
+</form>
+
+{{message}}
